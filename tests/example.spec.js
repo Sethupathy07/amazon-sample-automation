@@ -16,6 +16,8 @@ test('launch flipkart', async({page})=>{
    console.log(insta_url);
    await page.goBack();
    console.log(await page.url());
+   console.log(sethu);
+   
   // await page.screenshot({path:"C:\\Users\\Nishanth PC\\playwright\\Playwright_Screenshot\\screenshot1.jpg"});
    
 
